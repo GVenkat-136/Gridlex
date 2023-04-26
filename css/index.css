@@ -1,0 +1,263 @@
+* {
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+   display: none;
+}
+
+/* Main header Css */
+#Main_header {
+   background-size: 100% !important;
+   height: 80vh;
+}
+
+#bannerimage {
+   position: absolute;
+   top: 0px !important;
+   z-index: -1 !important;
+}
+
+#bannerimage>img {
+   width: 100%;
+   /* height: 50%; */
+}
+
+/* NavBar Css */
+.Nav_menu {
+   position: sticky !important;
+   top: 0px;
+   z-index: 100 !important;
+}
+
+a {
+   text-decoration: none !important;
+   font-size: 16px !important;
+   text-transform: capitalize;
+   font-weight: 300 !important;
+   letter-spacing: 3px;
+}
+
+/* 
+#Bg_img {
+   position: absolute;
+   top: 0px !important;
+   width: 100%;
+   z-index: -1;
+} */
+
+.Banner_content {
+   padding-top: 7%;
+   padding-left: 40px;
+   padding-bottom: 3rem !important;
+   width: 700px !important;
+}
+
+.Banner_content>h1 {
+   font-weight: 200;
+   font-size: 50px;
+   color: #03045e;
+   letter-spacing: 2px;
+   line-height: 80px !important;
+}
+
+.Banner_content>h1>strong {
+   font-size: 60px;
+   font-weight: 500;
+   display: block !important;
+   word-spacing: 0.3rem !important;
+}
+
+.primary {
+   color: #009be0 !important;
+}
+
+.Motto {
+   font-weight: bolder;
+   font-size: 80px;
+}
+
+/* Sign up Button Css */
+.signup_btn {
+   text-transform: capitalize;
+   background-color: #03045e !important;
+   color: #fff;
+   font-weight: bold;
+   font-size: 20px;
+   letter-spacing: 1px;
+   border: none;
+   border-radius: 5px !important;
+}
+
+/* About us Css */
+#Carousel_section {
+   padding: 30px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 30px;
+   padding-bottom: 50px;
+}
+
+#Carousel_section>h1 {
+   text-transform: capitalize;
+   font-weight: 700;
+   font-size: 50px;
+}
+
+#carouselExampleInterval {
+   border: 30px solid aquamarine;
+}
+
+.left_button {
+   position: absolute !important;
+   left: -200px;
+}
+
+.Right_button {
+   position: absolute !important;
+   right: -200px;
+}
+
+.custom_carousel {
+   width: 900px !important;
+   /* height: 500px !important; */
+}
+
+#carousel_image {
+   position: relative;
+   left: -200px !important;
+   width: 800px !important;
+   height: 400px !important;
+}
+
+.Text-About {
+   text-align: center;
+   position: absolute;
+   color: #03045e;
+   top: 0px !important;
+   right: 0px !important;
+   width: 900px !important;
+   height: 400px !important;
+   z-index: 50;
+   background: linear-gradient(50deg, transparent 50%, rgba(255, 255, 255, 1) 50%);
+   display: flex;
+   flex-direction: column;
+   align-items: end;
+   padding: 20px;
+   gap: 30px;
+}
+
+.Text-About>h1 {
+   font-weight: 700;
+   font-size: 35px;
+   position: relative;
+   left: -150px;
+}
+
+.About1 {
+   width: 300px;
+   text-align: left;
+   font-size: 14px;
+   position: relative;
+   left: -110px;
+}
+
+.About1>strong {
+   font-size: 20px;
+   letter-spacing: 2px;
+}
+
+.About2 {
+   width: 260px;
+   text-align: left;
+   font-size: 14px;
+   position: relative;
+   left: -10px;
+}
+
+.About2>strong {
+   font-size: 20px;
+   letter-spacing: 2px;
+}
+
+/* Research  section css */
+
+#Research_section>.conatiner>h1 {
+   font-size: 70px;
+   font-weight: 700;
+   letter-spacing: 3px;
+   color: #002b58;
+   text-align: center;
+}
+
+.counter1,
+.counter2 {
+   position: relative;
+}
+
+.counter1>h1,
+.counter2>h1 {
+   position: absolute;
+   color: #002b58;
+   top: 44%;
+   left: 38%;
+   font-size: 50px;
+   font-weight: 700;
+   letter-spacing: 1px;
+}
+
+/* Research  section css END */
+/* Contact US */
+#contactus {
+   background-color: #009be0;
+   padding: 10px;
+   position: sticky;
+   bottom: 0px;
+   z-index: 200;
+}
+
+#contactus>.container-fluid>h1 {
+   text-align: center;
+   font-size: 30px !important;
+   text-transform: capitalize;
+   font-weight: 700;
+   color: #fff;
+   padding-bottom: 10px;
+}
+
+#arrow {
+   width: 100px !important;
+   height: 80px !important;
+   position: absolute;
+   top: -6px !important;
+   right: 50px !important;
+}
+
+/* form css */
+
+#exampleInputEmail1,
+#exampletext,
+#exampleInputpasssword {
+   width: 260px !important;
+}
+
+.mb-3>label {
+   color: #fff !important;
+}
+
+.Submit_btn {
+   background-color: #002b58;
+   width: 180px !important;
+   height: 40px;
+   color: #fff;
+   font-weight: bold !important;
+   position: relative;
+   top: 25px;
+   border: none;
+   border-radius: 5px;
+   text-transform: capitalize;
+   letter-spacing: 2px !important;
+}
